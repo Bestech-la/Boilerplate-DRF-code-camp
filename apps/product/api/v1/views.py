@@ -44,6 +44,12 @@ image_urls = [
     "https://picsum.photos/200/300?random=9",
     "https://picsum.photos/200/300?random=10",
     "https://picsum.photos/200/300?random=11",
+    "https://picsum.photos/200/300?random=12",
+    "https://picsum.photos/200/300?random=13",
+    "https://picsum.photos/200/300?random=14",
+    "https://picsum.photos/200/300?random=15",
+    "https://picsum.photos/200/300?random=16",
+    "https://picsum.photos/200/300?random=17",
 ]
 def download_image(url, save_path):
     response = requests.get(url)
@@ -56,7 +62,7 @@ def download_image(url, save_path):
 
 class GenerateMockProducts(APIView):
     def post(self, request, *args, **kwargs):
-        for i in range(12):
+        for i in range(17):
             name = fake.word()
             price = round(random.uniform(10.0, 100.0), 2)
             size = str(random.choice([36, 37, 38, 39, 40, 41, 42, 43]))
@@ -74,4 +80,4 @@ class GenerateMockProducts(APIView):
             if image_file:
                 product.image.save(f"product{i}.jpg", image_file)
             product.save()
-        return Response({"status": "success", "message": "12 mock products created."})
+        return Response({"status": "success", "message": "17 mock products created."})

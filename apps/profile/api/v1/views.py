@@ -49,6 +49,12 @@ image_urls = [
     "https://picsum.photos/200/300?random=9",
     "https://picsum.photos/200/300?random=10",
     "https://picsum.photos/200/300?random=11",
+    "https://picsum.photos/200/300?random=12",
+    "https://picsum.photos/200/300?random=13",
+    "https://picsum.photos/200/300?random=14",
+    "https://picsum.photos/200/300?random=15",
+    "https://picsum.photos/200/300?random=16",
+    "https://picsum.photos/200/300?random=17",
 ]
 
 MAX_FULLNAME_LENGTH = 255
@@ -65,7 +71,7 @@ def download_image(url, save_path):
 
 class GenerateMockProfiles(APIView):
     def post(self, request, *args, **kwargs):
-        for i in range(12):
+        for i in range(17):
             fullname = fake.name()[:MAX_FULLNAME_LENGTH]
             nickname = fake.first_name()[:MAX_NICKNAME_LENGTH]
             image_url = random.choice(image_urls)
@@ -83,4 +89,4 @@ class GenerateMockProfiles(APIView):
             if image_file:
                 profile.image.save(f"profile{i}.jpg", image_file)
             profile.save()
-        return Response({"status": "success", "message": "12 mock profiles created."})
+        return Response({"status": "success", "message": "17 mock profiles created."})
