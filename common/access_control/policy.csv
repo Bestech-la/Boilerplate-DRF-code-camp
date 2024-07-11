@@ -1,0 +1,6 @@
+p, admin, swagger, (list)|(create)|(show)|(edit)|(delete)
+
+p, admin, user, (list)|(create)
+p, admin, user/*, (edit)|(show)|(delete)
+p, anonymous, user, (list)
+p, anonymous, user/*, (show)

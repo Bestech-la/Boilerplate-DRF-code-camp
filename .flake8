@@ -1,0 +1,8 @@
+[flake8]
+max-line-length = 100
+ignore = E501,W291
+exclude = venv
+show-source = true
+select = E110,E701
+plugins = flake8-import-order
+import-order-style = google
