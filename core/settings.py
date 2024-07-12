@@ -46,6 +46,8 @@ INSTALLED_APPS = [
     "user",
     "profile",
     "product",
+    "brand",
+    "district",
 ]
 
 MIDDLEWARE = [

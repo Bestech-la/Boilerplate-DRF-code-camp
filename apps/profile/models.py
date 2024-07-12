@@ -3,6 +3,8 @@ from sorl.thumbnail import ImageField, delete
 from django_cleanup.signals import cleanup_pre_delete
 from enum import Enum
 
+from apps.district.models import District
+
 class Gender(Enum):
     MALE = "MALE"
     FEMALE = "FEMALE"
@@ -24,6 +26,8 @@ class Profile(models.Model):
     image = ImageField(
         verbose_name="Image", upload_to="image/profile", blank=True, null=True
     )
+    district = models.ForeignKey(District, on_delete=models.CASCADE, related_name='profile', blank=True, null=True)
+
     date_added = models.DateTimeField()
 
     class Meta:

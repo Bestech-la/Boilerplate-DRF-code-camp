@@ -1,8 +1,9 @@
 from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
 from django_filters.rest_framework import DjangoFilterBackend
+from apps.brand.models import Brand
 from apps.product.api.v1.filter import ProductFilterSet
 from apps.product.api.v1.serializers import ProductSerializer
-from apps.product.models import Product
+from apps.product.models import Product, Type
 from common.access_control.authorization import CasbinAuthorization
 from rest_framework.filters import SearchFilter, OrderingFilter
 from rest_framework.parsers import MultiPartParser, FormParser
@@ -62,6 +63,8 @@ def download_image(url, save_path):
 
 class GenerateMockProducts(APIView):
     def post(self, request, *args, **kwargs):
+        brands = Brand.objects.all()
+        product_types = [product_type.value for product_type in Type]
         for i in range(17):
             name = fake.word()
             price = round(random.uniform(10.0, 100.0), 2)
@@ -69,15 +72,20 @@ class GenerateMockProducts(APIView):
             stock = random.randint(1, 100)
             image_url = random.choice(image_urls)
             image_file = download_image(image_url, f"product{i}.jpg")
+            product_type = random.choice(product_types)
+            brand = random.choice(brands)  # Randomly select a brand from available brands
 
             product = Product(
                 name=name,
                 price=price,
                 size=size,
                 stock=stock,
+                image=image_file,
+                type=product_type,
+                brand=brand,
                 date_added=timezone.now()
             )
-            if image_file:
-                product.image.save(f"product{i}.jpg", image_file)
             product.save()
+        
         return Response({"status": "success", "message": "17 mock products created."})
+    

@@ -1,0 +1,590 @@
+[
+    {
+      "provinceName": "ນະຄອນຫຼວງວຽງຈັນ",
+      "districtName": "ເມືອງສີສັດຕະນາກ"
+    },
+    {
+      "provinceName": "ນະຄອນຫຼວງວຽງຈັນ",
+      "districtName": "ເມືອງສັງທອງ"
+    },
+    {
+      "provinceName": "ນະຄອນຫຼວງວຽງຈັນ",
+      "districtName": "ເມືອງສີໂຄດຕະບອງ"
+    },
+    {
+      "provinceName": "ແຂວງຈຳປາສັກ",
+      "districtName": "ເມືອງປາກເຊ"
+    },
+    {
+      "provinceName": "ແຂວງອັດຕະປື",
+      "districtName": "ເມືອງຊານໄຊ"
+    },
+    {
+      "provinceName": "ນະຄອນຫຼວງວຽງຈັນ",
+      "districtName": "ເມືອງຫາດຊາຍຟອງ"
+    },
+    {
+      "provinceName": "ແຂວງຫຼວງພະບາງ",
+      "districtName": "ເມືອງວຽງຄຳ"
+    },
+    {
+      "provinceName": "ແຂວງເຊກອງ",
+      "districtName": "ເມືອງລະມາມ"
+    },
+    {
+      "provinceName": "ແຂວງອັດຕະປື",
+      "districtName": "ເມືອງສາມັກຄີໄຊ"
+    },
+    {
+      "provinceName": "ແຂວງເຊກອງ",
+      "districtName": "ເມືອງກະເລິມ"
+    },
+    {
+      "provinceName": "ນະຄອນຫຼວງວຽງຈັນ",
+      "districtName": "ເມືອງໄຊເສດຖາ"
+    },
+    {
+      "provinceName": "ແຂວງສາລະວັນ",
+      "districtName": "ເມືອງສາລະວັນ"
+    },
+    {
+      "provinceName": "ແຂວງອັດຕະປື",
+      "districtName": "ເມືອງພູວົງ"
+    },
+    {
+      "provinceName": "ແຂວງຫຼວງພະບາງ",
+      "districtName": "ເມືອງຫຼວງພະບາງ"
+    },
+    {
+      "provinceName": "ແຂວງຫຼວງພະບາງ",
+      "districtName": "ເມືອງໂພນທອງ"
+    },
+    {
+      "provinceName": "ນະຄອນຫຼວງວຽງຈັນ",
+      "districtName": "ເມືອງນາຊາຍທອງ"
+    },
+    {
+      "provinceName": "ແຂວງຈຳປາສັກ",
+      "districtName": "ເມືອງໂພນທອງ"
+    },
+    {
+      "provinceName": "ແຂວງຈຳປາສັກ",
+      "districtName": "ເມືອງໂຂງ"
+    },
+    {
+      "provinceName": "ແຂວງເຊກອງ",
+      "districtName": "ເມືອງທ່າແຕງ"
+    },
+    {
+      "provinceName": "ແຂວງຈຳປາສັກ",
+      "districtName": "ເມືອງບາຈຽງຈະເລີນສຸກ"
+    },
+    {
+      "provinceName": "ແຂວງຈຳປາສັກ",
+      "districtName": "ເມືອງຊະນະສົມບູນ"
+    },
+    {
+      "provinceName": "ແຂວງຈຳປາສັກ",
+      "districtName": "ເມືອງປະທຸມພອນ"
+    },
+    {
+      "provinceName": "ແຂວງຈຳປາສັກ",
+      "districtName": "ເມືອງຈຳປາສັກ"
+    },
+    {
+      "provinceName": "ແຂວງບໍ່ແກ້ວ",
+      "districtName": "ເມືອງຫ້ວຍຊາຍ"
+    },
+    {
+      "provinceName": "ແຂວງຊຽງຂວາງ",
+      "districtName": "ເມືອງແປກ"
+    },
+    {
+      "provinceName": "ແຂວງຊຽງຂວາງ",
+      "districtName": "ເມືອງວຽງຄຳ"
+    },
+    {
+      "provinceName": "ແຂວງຊຽງຂວາງ",
+      "districtName": "ເມືອງຄູນ"
+    },
+    {
+      "provinceName": "ແຂວງຈຳປາສັກ",
+      "districtName": "ເມືອງປາກຊ່ອງ"
+    },
+    {
+      "provinceName": "ນະຄອນຫຼວງວຽງຈັນ",
+      "districtName": "ເມືອງຈັນທະບູລີ"
+    },
+    {
+      "provinceName": "ແຂວງຊຽງຂວາງ",
+      "districtName": "ເມືອງພູກູດ"
+    },
+    {
+      "provinceName": "ແຂວງຫຼວງພະບາງ",
+      "districtName": "ເມືອງນ້ຳບາກ"
+    },
+    {
+      "provinceName": "ແຂວງຄຳມ່ວນ",
+      "districtName": "ເມືອງທ່າແຂກ"
+    },
+    {
+      "provinceName": "ແຂວງອຸດົມໄຊ",
+      "districtName": "ເມືອງໄຊ"
+    },
+    {
+      "provinceName": "ແຂວງອຸດົມໄຊ",
+      "districtName": "ເມືອງນາໝໍ້"
+    },
+    {
+      "provinceName": "ແຂວງອຸດົມໄຊ",
+      "districtName": "ເມືອງງາ"
+    },
+    {
+      "provinceName": "ແຂວງອຸດົມໄຊ",
+      "districtName": "ເມືອງຮຸນ"
+    },
+    {
+      "provinceName": "ແຂວງວຽງຈັນ",
+      "districtName": "ເມືອງກາສີ"
+    },
+    {
+      "provinceName": "ແຂວງວຽງຈັນ",
+      "districtName": "ເມືອງວັງວຽງ"
+    },
+    {
+      "provinceName": "ແຂວງວຽງຈັນ",
+      "districtName": "ເມືອງໂພນໂຮງ"
+    },
+    {
+      "provinceName": "ແຂວງວຽງຈັນ",
+      "districtName": "ເມືອງເຟືອງ"
+    },
+    {
+      "provinceName": "ແຂວງອຸດົມໄຊ",
+      "districtName": "ເມືອງແບ່ງ"
+    },
+    {
+      "provinceName": "ແຂວງຈຳປາສັກ",
+      "districtName": "ເມືອງສຸຂຸມາ"
+    },
+    {
+      "provinceName": "ແຂວງຫົວພັນ",
+      "districtName": "ເມືອງຊຳເໜືອ"
+    },
+    {
+      "provinceName": "ແຂວງບໍ່ແກ້ວ",
+      "districtName": "ເມືອງປາກທາ"
+    },
+    {
+      "provinceName": "ແຂວງຫົວພັນ",
+      "districtName": "ເມືອງວຽງໄຊ"
+    },
+    {
+      "provinceName": "ແຂວງຜົ້ງສາລີ",
+      "districtName": "ເມືອງບຸນເໜືອ"
+    },
+    {
+      "provinceName": "ແຂວງວຽງຈັນ",
+      "districtName": "ເມືອງຫີນເຫີບ"
+    },
+    {
+      "provinceName": "ແຂວງຜົ້ງສາລີ",
+      "districtName": "ເມືອງຜົ້ງສາລີ"
+    },
+    {
+      "provinceName": "ແຂວງວຽງຈັນ",
+      "districtName": "ເມືອງກາສີ"
+    },
+    {
+      "provinceName": "ແຂວງວຽງຈັນ",
+      "districtName": "ເມືອງຊະນະຄາມ"
+    },
+    {
+      "provinceName": "ແຂວງຫຼວງພະບາງ",
+      "districtName": "ເມືອງຊຽງເງີນ"
+    },
+    {
+      "provinceName": "ແຂວງໄຊຍະບູລີ",
+      "districtName": "ເມືອງໄຊຍະບູລີ"
+    },
+    {
+      "provinceName": "ແຂວງຫຼວງພະບາງ",
+      "districtName": "ເມືອງຈອມເພັດ"
+    },
+    {
+      "provinceName": "ແຂວງຫຼວງພະບາງ",
+      "districtName": "ເມືອງປາກແຊງ"
+    },
+    {
+      "provinceName": "ແຂວງຫຼວງພະບາງ",
+      "districtName": "ເມືອງໂພນໄຊ"
+    },
+    {
+      "provinceName": "ແຂວງຫຼວງພະບາງ",
+      "districtName": "ເມືອງພູຄູນ"
+    },
+    {
+      "provinceName": "ແຂວງຫົວພັນ",
+      "districtName": "ເມືອງຊຽງຄໍ້"
+    },
+    {
+      "provinceName": "ແຂວງຫົວພັນ",
+      "districtName": "ເມືອງວຽງທອງ"
+    },
+    {
+      "provinceName": "ແຂວງຫົວພັນ",
+      "districtName": "ເມືອງຫົວເມືອງ"
+    },
+    {
+      "provinceName": "ແຂວງຫົວພັນ",
+      "districtName": "ເມືອງຊຳໃຕ້"
+    },
+    {
+      "provinceName": "ແຂວງຫົວພັນ",
+      "districtName": "ເມືອງສົບເບົາ"
+    },
+    {
+      "provinceName": "ແຂວງຫົວພັນ",
+      "districtName": "ເມືອງແອດ"
+    },
+    {
+      "provinceName": "ແຂວງຫົວພັນ",
+      "districtName": "ເມືອງກອັນ"
+    },
+    {
+      "provinceName": "ແຂວງຫົວພັນ",
+      "districtName": "ເມືອງຊ່ອນ"
+    },
+    {
+      "provinceName": "ແຂວງໄຊຍະບູລີ",
+      "districtName": "ເມືອງຄອບ"
+    },
+    {
+      "provinceName": "ແຂວງໄຊຍະບູລີ",
+      "districtName": "ເມືອງຫົງສາ"
+    },
+    {
+      "provinceName": "ແຂວງໄຊຍະບູລີ",
+      "districtName": "ເມືອງເງິນ"
+    },
+    {
+      "provinceName": "ແຂວງໄຊຍະບູລີ",
+      "districtName": "ເມືອງຊຽງຮ່ອນ"
+    },
+    {
+      "provinceName": "ແຂວງໄຊຍະບູລີ",
+      "districtName": "ເມືອງພຽງ"
+    },
+    {
+      "provinceName": "ແຂວງໄຊຍະບູລີ",
+      "districtName": "ເມືອງປາກລາຍ"
+    },
+    {
+      "provinceName": "ແຂວງໄຊຍະບູລີ",
+      "districtName": "ເມືອງແກ່ນທ້າວ"
+    },
+    {
+      "provinceName": "ແຂວງໄຊຍະບູລີ",
+      "districtName": "ເມືອງບໍ່ແຕນ"
+    },
+    {
+      "provinceName": "ແຂວງໄຊຍະບູລີ",
+      "districtName": "ເມືອງທົ່ງມີໄຊ"
+    },
+    {
+      "provinceName": "ແຂວງໄຊຍະບູລີ",
+      "districtName": "ເມືອງໄຊສະຖານ"
+    },
+    {
+      "provinceName": "ແຂວງຊຽງຂວາງ",
+      "districtName": "ເມືອງໜອງແຮດ"
+    },
+    {
+      "provinceName": "ແຂວງຊຽງຂວາງ",
+      "districtName": "ເມືອງໝອກໃໝ່"
+    },
+    {
+      "provinceName": "ແຂວງຊຽງຂວາງ",
+      "districtName": "ເມືອງຜາໄຊ"
+    },
+    {
+      "provinceName": "ແຂວງວຽງຈັນ",
+      "districtName": "ເມືອງທຸລະຄົມ"
+    },
+    {
+      "provinceName": "ແຂວງວຽງຈັນ",
+      "districtName": "ເມືອງແກ້ວອຸດົມ"
+    },
+    {
+      "provinceName": "ແຂວງວຽງຈັນ",
+      "districtName": "ເມືອງແມດ"
+    },
+    {
+      "provinceName": "ແຂວງວຽງຈັນ",
+      "districtName": "ເມືອງວຽງຄໍາ"
+    },
+    {
+      "provinceName": "ແຂວງວຽງຈັນ",
+      "districtName": "ເມືອງໝື່ນ"
+    },
+    {
+      "provinceName": "ແຂວງຄຳມ່ວນ",
+      "districtName": "ເມືອງມະຫາໄຊ"
+    },
+    {
+      "provinceName": "ແຂວງຄຳມ່ວນ",
+      "districtName": "ເມືອງໜອງບົກ"
+    },
+    {
+      "provinceName": "ແຂວງຄຳມ່ວນ",
+      "districtName": "ເມືອງຫີນບູນ"
+    },
+    {
+      "provinceName": "ແຂວງຄຳມ່ວນ",
+      "districtName": "ເມືອງຍົມມະລາດ"
+    },
+    {
+      "provinceName": "ແຂວງຄຳມ່ວນ",
+      "districtName": "ເມືອງບົວລະພາ"
+    },
+    {
+      "provinceName": "ແຂວງຄຳມ່ວນ",
+      "districtName": "ເມືອງເຊບັ້ງໄຟ"
+    },
+    {
+      "provinceName": "ແຂວງຄຳມ່ວນ",
+      "districtName": "ມືອງນາກາຍ"
+    },
+    {
+      "provinceName": "ແຂວງຄຳມ່ວນ",
+      "districtName": "ເມືອງໄຊບົວທອງ"
+    },
+    {
+      "provinceName": "ແຂວງຄຳມ່ວນ",
+      "districtName": "ເມືອງຄູນຄຳ"
+    },
+    {
+      "provinceName": "ແຂວງສະຫວັນນະເຂດ",
+      "districtName": "ເມືອງໄກສອນ ພົມວິຫານ"
+    },
+    {
+      "provinceName": "ແຂວງສະຫວັນນະເຂດ",
+      "districtName": "ເມືອງອຸທຸມພອນ"
+    },
+    {
+      "provinceName": "ແຂວງສະຫວັນນະເຂດ",
+      "districtName": "ເມືອງອາດສະພັງທອງ"
+    },
+    {
+      "provinceName": "ແຂວງສະຫວັນນະເຂດ",
+      "districtName": "ເມືອງພີນ"
+    },
+    {
+      "provinceName": "ແຂວງສະຫວັນນະເຂດ",
+      "districtName": "ເມືອງເຊໂປນ"
+    },
+    {
+      "provinceName": "ແຂວງສະຫວັນນະເຂດ",
+      "districtName": "ເມືອງນອງ"
+    },
+    {
+      "provinceName": "ແຂວງສະຫວັນນະເຂດ",
+      "districtName": "ເມືອງທ່າປາງທອງ"
+    },
+    {
+      "provinceName": "ແຂວງສະຫວັນນະເຂດ",
+      "districtName": "ເມືອງສອງຄອນ"
+    },
+    {
+      "provinceName": "ແຂວງສະຫວັນນະເຂດ",
+      "districtName": "ເມືອງຈຳພອນ"
+    },
+    {
+      "provinceName": "ແຂວງສະຫວັນນະເຂດ",
+      "districtName": "ເມືອງຊົນນະບູລີ"
+    },
+    {
+      "provinceName": "ແຂວງສະຫວັນນະເຂດ",
+      "districtName": "ເມືອງໄຊບູລີ"
+    },
+    {
+      "provinceName": "ແຂວງສະຫວັນນະເຂດ",
+      "districtName": "ເມືອງວີລະບຸລີ"
+    },
+    {
+      "provinceName": "ແຂວງສະຫວັນນະເຂດ",
+      "districtName": "ເມືອງອາດສະພອນ"
+    },
+    {
+      "provinceName": "ແຂວງສະຫວັນນະເຂດ",
+      "districtName": "ເມືອງໄຊພູທອງ"
+    },
+    {
+      "provinceName": "ແຂວງສະຫວັນນະເຂດ",
+      "districtName": "ເມືອງພະລານໄຊ"
+    },
+    {
+      "provinceName": "ແຂວງສາລະວັນ",
+      "districtName": "ເມືອງຕະໂອ້ຍ"
+    },
+    {
+      "provinceName": "ແຂວງສາລະວັນ",
+      "districtName": "ເມືອງຕຸ້ມລານ"
+    },
+    {
+      "provinceName": "ແຂວງສາລະວັນ",
+      "districtName": "ເມືອງລະຄອນເພັງ"
+    },
+    {
+      "provinceName": "ແຂວງສາລະວັນ",
+      "districtName": "ເມືອງຄົງເຊໂດນ"
+    },
+    {
+      "provinceName": "ແຂວງສາລະວັນ",
+      "districtName": "ເມືອງເລົ່າງາມ"
+    },
+    {
+      "provinceName": "ແຂວງສາລະວັນ",
+      "districtName": "ເມືອງສະມ້ວຍ"
+    },
+    {
+      "provinceName": "ແຂວງເຊກອງ",
+      "districtName": "ເມືອງດາກຈຶງ"
+    },
+    {
+      "provinceName": "ແຂວງຈຳປາສັກ",
+      "districtName": "ເມືອງຈຳປາສັກ"
+    },
+    {
+      "provinceName": "ແຂວງຈຳປາສັກ",
+      "districtName": "ເມືອງມູນລະປະໂມກ"
+    },
+    {
+      "provinceName": "ແຂວງອັດຕະປື",
+      "districtName": "ເມືອງສະໜາມໄຊ"
+    },
+    {
+      "provinceName": "ແຂວງໄຊສົມບູນ",
+      "districtName": "ເມືອງອະນຸວົງ"
+    },
+    {
+      "provinceName": "ແຂວງໄຊສົມບູນ",
+      "districtName": "ເມືອງລ້ອງແຈ້ງ"
+    },
+    {
+      "provinceName": "ແຂວງໄຊສົມບູນ",
+      "districtName": "ເມືອງລ້ອງຊານ"
+    },
+    {
+      "provinceName": "ແຂວງໄຊສົມບູນ",
+      "districtName": "ເມືອງເມືອງຮົ່ມ"
+    },
+    {
+      "provinceName": "ແຂວງໄຊສົມບູນ",
+      "districtName": "ເມືອງທ່າໂທມ"
+    },
+    {
+      "provinceName": "ນະຄອນຫຼວງວຽງຈັນ",
+      "districtName": "ເມືອງປາກງື່ມ"
+    },
+    {
+      "provinceName": "ແຂວງຜົ້ງສາລີ",
+      "districtName": "ເມືອງໃໝ່"
+    },
+    {
+      "provinceName": "ແຂວງຜົ້ງສາລີ",
+      "districtName": "ເມືອງຂວາ"
+    },
+    {
+      "provinceName": "ແຂວງຜົ້ງສາລີ",
+      "districtName": "ເມືອງສຳພັນ"
+    },
+    {
+      "provinceName": "ແຂວງຜົ້ງສາລີ",
+      "districtName": "ເມືອງບຸນໃຕ້"
+    },
+    {
+      "provinceName": "ແຂວງຫຼວງນໍ້າທາ",
+      "districtName": "ເມືອງຫຼວງນໍ້າທາ"
+    },
+    {
+      "provinceName": "ແຂວງຫຼວງນໍ້າທາ",
+      "districtName": "ເມືອງສີງ"
+    },
+    {
+      "provinceName": "ແຂວງຫຼວງນໍ້າທາ",
+      "districtName": "ເມືອງລອງ"
+    },
+    {
+      "provinceName": "ແຂວງຫຼວງນໍ້າທາ",
+      "districtName": "ເມືອງວຽງພູຄາ"
+    },
+    {
+      "provinceName": "ແຂວງຫຼວງນໍ້າທາ",
+      "districtName": "ເມືອງນາແລ"
+    },
+    {
+      "provinceName": "ແຂວງອຸດົມໄຊ",
+      "districtName": "ເມືອງຫຼາ"
+    },
+    {
+      "provinceName": "ແຂວງອຸດົມໄຊ",
+      "districtName": "ເມືອງປາກແບ່ງ"
+    },
+    {
+      "provinceName": "ແຂວງບໍ່ແກ້ວ",
+      "districtName": "ເມືອງຕົ້ນເຜິ້ງ"
+    },
+    {
+      "provinceName": "ແຂວງບໍ່ແກ້ວ",
+      "districtName": "ເມືອງເມິງ"
+    },
+    {
+      "provinceName": "ແຂວງບໍ່ແກ້ວ",
+      "districtName": "ເມືອງຜາອຸດົມ"
+    },
+    {
+      "provinceName": "ແຂວງຫຼວງພະບາງ",
+      "districtName": "ເມືອງນານ"
+    },
+    {
+      "provinceName": "ແຂວງຫຼວງພະບາງ",
+      "districtName": "ເມືອງປາກອູ"
+    },
+    {
+      "provinceName": "ນະຄອນຫຼວງວຽງຈັນ",
+      "districtName": "ເມືອງໄຊທານີ"
+    },
+    {
+      "provinceName": "ແຂວງຫຼວງພະບາງ",
+      "districtName": "ເມືອງງອຍ"
+    },
+    {
+      "provinceName": "ແຂວງບໍລິຄຳໄຊ",
+      "districtName": "ເມືອງປາກຊັນ"
+    },
+    {
+      "provinceName": "ແຂວງບໍລິຄຳໄຊ",
+      "districtName": "ເມືອງທ່າພະບາດ"
+    },
+    {
+      "provinceName": "ແຂວງບໍລິຄຳໄຊ",
+      "districtName": "ເມືອງປາກກະດິງ"
+    },
+    {
+      "provinceName": "ແຂວງບໍລິຄຳໄຊ",
+      "districtName": "ເມືອງບໍລິຄັນ"
+    },
+    {
+      "provinceName": "ແຂວງບໍລິຄຳໄຊ",
+      "districtName": "ເມືອງຄຳເກີດ"
+    },
+    {
+      "provinceName": "ແຂວງບໍລິຄຳໄຊ",
+      "districtName": "ເມືອງວຽງທອງ"
+    },
+    {
+      "provinceName": "ແຂວງບໍລິຄຳໄຊ",
+      "districtName": "ເມືອງໄຊຈຳພອນ"
+    }
+  ]

@@ -1,5 +1,6 @@
 from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
 from django_filters.rest_framework import DjangoFilterBackend
+from apps.district.models import District
 from apps.profile.api.v1.filter import ProfileFilterSet
 from apps.profile.api.v1.serializers import ProfileSerializer
 from apps.profile.models import Profile
@@ -71,11 +72,13 @@ def download_image(url, save_path):
 
 class GenerateMockProfiles(APIView):
     def post(self, request, *args, **kwargs):
+        districts = District.objects.all()
         for i in range(17):
             fullname = fake.name()[:MAX_FULLNAME_LENGTH]
             nickname = fake.first_name()[:MAX_NICKNAME_LENGTH]
             image_url = random.choice(image_urls)
             image_file = download_image(image_url, f"profile{i}.jpg")
+            district = random.choice(districts)
 
             profile = Profile(
                 fullname=fullname,
@@ -84,7 +87,8 @@ class GenerateMockProfiles(APIView):
                 gender=random.choice([gender.value for gender in Gender]),
                 age=random.randint(18, 60),
                 birthday=fake.date_of_birth(tzinfo=None, minimum_age=18, maximum_age=60),
-                date_added=timezone.now()
+                date_added=timezone.now(),
+                district=district,
             )
             if image_file:
                 profile.image.save(f"profile{i}.jpg", image_file)

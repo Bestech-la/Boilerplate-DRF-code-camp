@@ -11,5 +11,7 @@ class ProductFilterSet(filters.FilterSet):
             "price",
             "size",
             "stock",
+            "brand",
+            "type"
         ]
 
