@@ -7,6 +7,15 @@ class ProductSerializer(FlexFieldsModelSerializer):
     thumbnail = HyperlinkedSorlImageField("128x128", options={"crop": "center"}, source="image", read_only=True)
     class Meta:
         model = Product
-        fields = ["id", "name", "price", "size",  "stock", "image", "date_added", "thumbnail", "brand", "type"]
+        fields = ["id",
+                  "name",
+                  "price",
+                  "size",
+                  "stock",
+                  "image",
+                  "date_added",
+                  "thumbnail",
+                  "brand",
+                  "type"]
 
         

@@ -27,8 +27,7 @@ class Profile(models.Model):
         verbose_name="Image", upload_to="image/profile", blank=True, null=True
     )
     district = models.ForeignKey(District, on_delete=models.CASCADE, related_name='profile', blank=True, null=True)
-
-    date_added = models.DateTimeField()
+    date_added = models.DateTimeField(auto_now_add=True)
 
     class Meta:
         ordering = ["-id"]

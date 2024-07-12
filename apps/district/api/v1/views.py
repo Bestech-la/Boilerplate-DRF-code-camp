@@ -24,7 +24,7 @@ class DistrictListCreateAPIView(ListCreateAPIView):
     serializer_class = DistrictSerializer
     filter_backends = [DjangoFilterBackend]
     filterset_class = DistrictFilterSet
-    permission_classes = [CasbinAuthorization]
+    # permission_classes = [CasbinAuthorization]
 
     @swagger_auto_schema(
         operation_description="post single or list of districts",
@@ -56,4 +56,4 @@ class DistrictRetrieveUpdateDestroyAPIView(RetrieveUpdateDestroyAPIView):
     """
     queryset = District.objects.all()
     serializer_class = DistrictSerializer
-    permission_classes = [CasbinAuthorization]
+    # permission_classes = [CasbinAuthorization]

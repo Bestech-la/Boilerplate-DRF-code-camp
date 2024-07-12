@@ -24,13 +24,13 @@ class ProductListCreateAPIView(ListCreateAPIView):
     search_fields = ["name", "price", "size", "stock"]
     ordering_fields = ["name", "price", "size", "stock"]
     parser_classes = (MultiPartParser, FormParser)
-    permission_classes = [CasbinAuthorization]
+    # permission_classes = [CasbinAuthorization]
 
 class ProductRetrieveUpdateDestroyAPIView(RetrieveUpdateDestroyAPIView):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
     parser_classes = (MultiPartParser, FormParser)
-    permission_classes = [CasbinAuthorization]
+    # permission_classes = [CasbinAuthorization]
 
 fake = Faker()
 image_urls = [

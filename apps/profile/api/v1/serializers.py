@@ -8,4 +8,14 @@ class ProfileSerializer(FlexFieldsModelSerializer):
     thumbnail = HyperlinkedSorlImageField("128x128", options={"crop": "center"}, source="image", read_only=True)
     class Meta:
         model = Profile
-        fields = ["id", "fullname", "nickname", "gender", "birthday", "image", "age", "thumbnail", "date_added", "district"]
+        fields = ["id", 
+                  "fullname",
+                  "nickname", 
+                  "gender", 
+                  "birthday", 
+                  "image",
+                  "age", 
+                  "thumbnail",
+                  "date_added",
+                  "district",
+                  "phone"]

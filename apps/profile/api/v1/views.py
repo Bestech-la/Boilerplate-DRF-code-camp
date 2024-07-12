@@ -27,13 +27,13 @@ class ProfileListCreateAPIView(ListCreateAPIView):
     search_fields = ["fullname", "nickname", "gender"]
     ordering_fields = ["fullname", "nickname", "gender",]
     parser_classes = (MultiPartParser, FormParser)
-    permission_classes = [CasbinAuthorization]
+    # permission_classes = [CasbinAuthorization]
 
 class ProfileRetrieveUpdateDestroyAPIView(RetrieveUpdateDestroyAPIView):
     queryset = Profile.objects.all()
     serializer_class = ProfileSerializer
     parser_classes = (MultiPartParser, FormParser)
-    permission_classes = [CasbinAuthorization]
+    # permission_classes = [CasbinAuthorization]
 
 
 fake = Faker()
