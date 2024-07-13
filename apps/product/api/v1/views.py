@@ -21,8 +21,8 @@ class ProductListCreateAPIView(ListCreateAPIView):
     serializer_class = ProductSerializer
     filter_backends = [DjangoFilterBackend, SearchFilter, OrderingFilter]
     filterset_class = ProductFilterSet
-    search_fields = ["name", "price", "size", "stock"]
-    ordering_fields = ["name", "price", "size", "stock"]
+    search_fields = ["name", "price", "size", "stock", "type"]
+    ordering_fields = ["name", "price", "size", "stock", "type"]
     parser_classes = (MultiPartParser, FormParser)
     # permission_classes = [CasbinAuthorization]
 

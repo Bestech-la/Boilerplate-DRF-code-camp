@@ -1,9 +1,9 @@
 from rest_framework.generics import ListCreateAPIView, RetrieveUpdateDestroyAPIView
 from django_filters.rest_framework import DjangoFilterBackend
 from apps.district.models import District
-from apps.profile.api.v1.filter import ProfileFilterSet
-from apps.profile.api.v1.serializers import ProfileSerializer
-from apps.profile.models import Profile
+from apps.profile.api.v1.filter import ProfileFilterSet, ProfileAddressFilterSet
+from apps.profile.api.v1.serializers import ProfileSerializer, ProfileAddressSerializer
+from apps.profile.models import Profile, ProfileAddress
 from common.access_control.authorization import CasbinAuthorization
 from rest_framework.filters import SearchFilter, OrderingFilter
 from rest_framework.parsers import MultiPartParser, FormParser
@@ -16,6 +16,7 @@ from django.utils import timezone
 import requests
 from django.core.files import File
 from django.core.files.temp import NamedTemporaryFile
+from common.post_list.views import swagger_post_list, post
 
 
 
@@ -24,8 +25,8 @@ class ProfileListCreateAPIView(ListCreateAPIView):
     serializer_class = ProfileSerializer
     filter_backends = [DjangoFilterBackend, SearchFilter, OrderingFilter]
     filterset_class = ProfileFilterSet
-    search_fields = ["fullname", "nickname", "gender"]
-    ordering_fields = ["fullname", "nickname", "gender",]
+    search_fields = ["fullname", "nickname", "gender", "phone", "age"]
+    ordering_fields = ["fullname", "nickname", "gender", "phone", "age"]
     parser_classes = (MultiPartParser, FormParser)
     # permission_classes = [CasbinAuthorization]
 
@@ -34,6 +35,21 @@ class ProfileRetrieveUpdateDestroyAPIView(RetrieveUpdateDestroyAPIView):
     serializer_class = ProfileSerializer
     parser_classes = (MultiPartParser, FormParser)
     # permission_classes = [CasbinAuthorization]
+
+class ProfileAddressListCreateAPIView(ListCreateAPIView):
+    queryset = ProfileAddress.objects.all()
+    serializer_class = ProfileAddressSerializer
+    filter_backends = [DjangoFilterBackend, SearchFilter, OrderingFilter]
+    filterset_class = ProfileAddressFilterSet
+    search_fields = ["village", "type", "profile", "district"]
+    ordering_fields = ["village", "type", "profile", "district"]
+
+    @swagger_post_list("ProfileAddressSerializer", ProfileAddressSerializer)
+    def post(self, request, *args, **kwargs):
+        return post(self, ProfileAddress, request, *args, **kwargs)
+class ProfileAddressRetrieveUpdateDestroyAPIView(RetrieveUpdateDestroyAPIView):
+    queryset = ProfileAddress.objects.all()
+    serializer_class = ProfileAddressSerializer
 
 
 fake = Faker()

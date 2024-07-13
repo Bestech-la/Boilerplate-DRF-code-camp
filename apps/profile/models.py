@@ -43,3 +43,30 @@ def sorl_delete(**kwargs):
     delete(kwargs["file"])
 
 cleanup_pre_delete.connect(sorl_delete)
+
+
+class ProfileAddressType(Enum):
+    BORN = "born"
+    CURRENT = "current"
+
+    @classmethod
+    def choices(cls):
+        """Get choices for Gender as a list of tuples."""
+        return [(choice.value, choice.name.replace("_", " ").title()) for choice in cls]
+
+class ProfileAddress(models.Model):
+    village = models.CharField(max_length=100)
+    type = models.CharField(
+        max_length=255, choices=ProfileAddressType.choices())
+    profile = models.ForeignKey(Profile, on_delete=models.CASCADE, related_name='profile_address', blank=True, null=True)
+    district = models.ForeignKey(District, on_delete=models.CASCADE, related_name='profile_address', blank=True, null=True)
+    updated_on = models.DateTimeField(auto_now=True)
+    created_on = models.DateTimeField(auto_now_add=True)
+
+    class Meta:
+        ordering = ['-created_on']
+        verbose_name="ProfileAddress"
+        verbose_name_plural="ProfileAddress"
+
+    def __str__(self):
+        return self.village
