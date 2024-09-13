@@ -49,6 +49,7 @@ INSTALLED_APPS = [
     "brand",
     "district",
     "category",
+    "book",
 ]
 
 MIDDLEWARE = [

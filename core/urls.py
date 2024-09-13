@@ -22,6 +22,7 @@ urlpatterns = [
     path("", include("apps.brand.api.v1.urls"), name="brand"),
     path("", include("apps.district.api.v1.urls"), name="district"),
     path("", include("apps.category.api.v1.urls"), name="category"),
+    path("", include("apps.book.api.v1.urls"), name="book"),
 ]
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
