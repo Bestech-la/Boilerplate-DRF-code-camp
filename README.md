@@ -40,7 +40,7 @@ and Django Secret Key
 ### Make migrations and Apply to database # create migrations files (every new django app)
 
     python manage.py makemigrations
-    python manage.py makemigrations user product profile brand district category book
+    python manage.py makemigrations user product profile brand district category book exam
     python manage.py migrate
 
 ### Setup Initial User as Admin

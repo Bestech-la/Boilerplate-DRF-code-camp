@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     "district",
     "category",
     "book",
+    "exam",
 ]
 
 MIDDLEWARE = [
