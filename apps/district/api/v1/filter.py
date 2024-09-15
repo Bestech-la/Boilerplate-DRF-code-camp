@@ -7,6 +7,7 @@ class CharInFilter(filters.BaseInFilter, filters.CharFilter):
 
 class DistrictFilterSet(filters.FilterSet):
     province = CharInFilter(field_name='province_name', lookup_expr='in')
+    id = CharInFilter(field_name='id', lookup_expr='in')
     class Meta:
         model = District
         fields = ["id", "province_name"]

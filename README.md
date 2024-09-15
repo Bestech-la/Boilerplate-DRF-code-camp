@@ -19,6 +19,7 @@ Activate environment
     export LDFLAGS="-L/usr/local/opt/openssl/lib"
     pip install cryptography
     pip install -r requirements/dev.txt
+    pip install -r requirements/freeze.txt
 
 ### Create .env File
 
